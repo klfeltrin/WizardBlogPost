@@ -1,0 +1,114 @@
+header {
+    margin-top: 30px;
+}
+
+nav {
+    background-color: #fdfcf8;
+}
+
+i {
+    font-size: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-hr {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.content-body {
+    background-color: #fdfcf8;
+}
+
+.navbar { 
+    border-bottom: 2px solid rgb(161, 161, 161);
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header>p {
+    letter-spacing: 3px;
+}
+
+section>p {
+    font-size: 20px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.tags-container-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tags-continer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.tags-container-buttons {
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.tags-container>i:hover {
+    color: rgb(14, 130, 246);
+}
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid rgb(161, 161, 161);
+    height: 70px;
+    letter-spacing: 5px;
+}
+
+.footer-authors-name>a {
+    color: black;
+}
+
+.footer-authors-name>a:hover {
+    color: rgb(14, 130, 246);
+}
